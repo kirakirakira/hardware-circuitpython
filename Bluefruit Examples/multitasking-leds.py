@@ -1,4 +1,4 @@
-# Add link to original non-blocking timer
+# Modified from: https://github.com/mikepschneider/CircuitPython_nonblocking_timer
 
 import time
 import board

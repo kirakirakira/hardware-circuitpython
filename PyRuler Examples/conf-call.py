@@ -1,4 +1,5 @@
-# Add link to original
+# Modified from https://learn.adafruit.com/PyRulerVideoPanic/code
+# Keyboard shortcuts work in Microsoft Teams
 
 import os
 import board

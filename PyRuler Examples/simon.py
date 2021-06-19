@@ -1,5 +1,4 @@
-# From Adafruit
-# Add link and attribution
+# Modified from https://learn.adafruit.com/simon-game-with-pyruler-and-circuitpython/code-pyruler-with-circuitpython
 
 import os
 import board
