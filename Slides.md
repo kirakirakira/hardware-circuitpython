@@ -40,32 +40,36 @@ https://github.com/adafruit/circuitpython
 https://circuitpython.org/
 Example guides: https://github.com/adafruit/Adafruit_Learning_System_Guides/tree/master/CircuitPython_Essentials
 
-CircuitPython is a derivative of MicroPython and it was developed by Adafruit as an easy way to program microcontrollers with education as the primary objective.
+Commonly, C is the language of choice for writing code for microcontrollers. C is a compiled, low-level language that plays nicely with low-level hardware needs as it can be very efficient. It's also smaller in memory as it doesn't rely on as many libraries as our higher-level languages, and microcontrollers are very memory-constrained. C is a bit more difficult to learn than other languages and it can be difficult to get a microcontroller started up. But if you're looking to get into hardware, thankfully Adafruit has created a derivative of MicroPython (which is a full Python compiler and runtime that runs on bare-metal) known as CircuitPython to specifically to educate people on how to program microcontrollers and get up and going as quickly as possible.
 
-There are many low-cost microcontroller boards, and with CircuitPython there are no special desktop software requirements. You can use any text editor to start editing code. You won’t need to install a fancy compiler or need any special equipment to upload code either. Since CircuitPython is based on Python, it’s also easy to transition and get started with little prior programming experience.
+There are many low-cost microcontroller boards, and with CircuitPython there are no special desktop software requirements. You can use any text editor to start editing code. You won’t need to install a fancy compiler or need any special equipment to upload the code either to the board. Since CircuitPython is based on Python, it’s also easy to transition and get started with little prior programming experience.
 
-CircuitPython code lives on the board itself, so you are able to take it with you and edit it on whatever and whenever you like. There is also a serial console and REPL that you can set up to allow for live feedback and for interactive programming. There are many libraries and drivers for various sensor, components, and boards so you don’t have to write your own from scratch.
+The CircuitPython code lives on the board itself, and there's a serial console and REPL that you can set up to get live feedback and interact with the hardware. There are many libraries and drivers available as well already from Adafruit for various sensors, components, and boards so you don’t have to write your own from scratch.
 
 ## 9. PyRuler
 
 The PyRuler is a ruler...and it’s a reference board that shows you what various PCB (printed circuit board) components look like, their name and their size. But it also has a few cool features that makes it a simple board to get started with in your CircuitPython journey.
 
-It has a Trinket M0 (a Cortex M0 microcontroller), as well as 4 capacitive touch pads with matching LEDs. It comes with code already loaded it on, so all you need to do is plug and play. Each of 3 of the capacitive touch buttons will press a Greek symbol as keyboard input on your computer. You’ll no longer need to remember the keyboard shortcut for omega, mu, or pi ever again! If you press the Digi-Key logo, it prints the URL for Digi-Key’s Python on hardware guide.
+It has a Trinket M0 (a Cortex M0 microcontroller), as well as 4 capacitive touch pads with matching LEDs. It comes with code already loaded it on, so all you need to do is plug and play. Each of 3 of the capacitive touch buttons will press a Greek symbol as keyboard input on your computer.
 
-Because the code is already there, it makes it easy to edit and change what is printed.
+Because the code is already there, it makes it easy to edit and change what is printed. I modified the example code to print what I wanted.
 
-## 11. PyRuler Project  #1
-Hello, World blinking when pressing cap touch buttons and printing to screen
+## 12. PyRuler Project #1
+I also found someone else's project that turned the PyRuler into a panic button for when you need to mute yourself during a conference call.
 
-## 12. PyRuler Project #2
-Muting conference call and turning on/off camera
+I added a toggle for the video, toggle for the mute button, and added a shortcut to go to search within Teams. If you press the Digi-Key button, it prints "LGTM :+1:", which is what we like to type on each other's pull requests at work.
+
+<Muting conference call and turning on/off camera>
 
 ## 13. Circuit Playground Express/Bluefruit
 https://learn.adafruit.com/adafruit-circuit-playground-express
 https://www.adafruit.com/product/4333
 
-## 14. Circuit Playground Express/Bluefruit Project
+## 14. Circuit Playground Express/Bluefruit Project #2
 Scheduling blinking lights
+
+## 15. Circuit Playground Express/Bluefruit Project #3
+Playing music with buttons, turn on/off light with switch
 
 ## 15. Resources
 
