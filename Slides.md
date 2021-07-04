@@ -74,8 +74,6 @@ If you press the Digi-Key button, it prints "LGTM :+1:", which is what we like t
 
 I also found someone else's project that turned the PyRuler into a panic button for when you need to mute yourself during a conference call. I added a toggle for the video camera, toggle for the mute button, and added a shortcut to go to search within Microsoft Teams by modifying the existing code on the PyRuler and looking up what the keyboard shortcuts are for these. More details on how the code works is included in the Appendix which is in my Github repo.
 
-<Muting conference call and turning on/off camera>
-
 ## 12. Circuit Playground Express/Bluefruit
 
 Another intro boards that are available from Adafruit with CircuitPython on them are the Circuit Playground Express and Circuit Playground Bluefruit which is the Express plus Bluetooth capability. It has many more sensors built in on the board than the PyRuler does.
