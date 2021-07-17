@@ -6,17 +6,15 @@ Welcome to Basics of Hardware with a PyRuler! My name is Kira Hartlage, and I wi
 
 ## 2. Introduction
 
-My name is Kira Hartlage. I have a background in mechanical engineering and consumer appliance part design at GE Appliances. I started my software journey teaching myself Python using EdX, Coursera, and other online courses before branching out and switching to embedded development at my current company where now I write code for microcontrollers that are on our consumer appliances.
+My name is Kira Hartlage. I have a background in mechanical engineering and consumer appliance design at GE Appliances. I started my software journey teaching myself Python using EdX, Coursera, and various other online courses before branching out and switching to embedded development at my current company where I now write code for microcontrollers, primarily written in C for our consumer appliances.
 
 ## 3. Desired Outcomes
 
-Here are our desired outcomes for our time together. I’ll introduce to you a bit about embedded firmware development. I’ll introduce how you can use CircuitPython as an alternative to C, which is the most common software language used for writing embedded software. We’ll look at an example of how to write code for hardware using the PyRuler. Then I’ll show you resources and examples of projects that you can explore to learn on your own.
+Here are our desired outcomes for our time together. I’ll introduce you to a bit about embedded firmware development. I’ll introduce to how you can use CircuitPython as an alternative to C, which is the most common software language used for writing embedded software. We’ll look at an example of how to write code for hardware using the PyRuler. Then I’ll show you resources and examples of projects that you can explore to learn more on your own.
 
 ## 4. Embedded systems
 
-We will start with what is embedded firmware or is it embedded software or maybe embedded systems?
-
-Embedded software development is basically writing code to control a device that is not a computer. So you typically don’t have an operating system, and you will be dealing with memory and time constraints for the particular device that you’re writing code for. Embedded software can also be called firmware as firmware is stored in non-volatile memory such as ROM, Flash, or EEPROM. In the past, you would not be able to update the device’s non-volatile memory, hence it was firm. But nowadays there are methods to update non-volatile memory without too much headache.
+Embedded software development is basically writing code to control a device that is not a computer. So you typically don’t have an operating system, and you will be dealing with memory and time constraints for the particular device that you’re writing code for. Embedded software can also be called firmware as firmware is stored in non-volatile memory such as ROM, Flash, or EEPROM. In the past, you would not be able to update the device’s non-volatile memory, hence it was called firm. But nowadays there are methods to update non-volatile memory without too much headache. So now we typically referred to it as embedded software.
 
 ## 5. Hardware
 
@@ -26,10 +24,10 @@ Peripherals are the various parts of the microcontroller that interface with the
 
 ## 6. Hardware - Microcontrollers
 
-Microcontrollers have 3 main pieces:
+What are microcontrollers? They have 3 main pieces:
 1. Instructions - what the microcontroller is capable of doing
-2. Registers - which are fast storage locations in memory that the microcontroller has that the instructions can use
-3. Other memory - which can be used to store your code and data, but they are slower for the microcontroller to access than it is to access the registers
+2. Registers - which are fast storage locations in memory that the microcontroller has access to that the instructions can use
+3. Other memory - which can be used to store your code and data, but they are usually slower for the microcontroller to access than it is for it to access the registers
 
 ## 7. Hardware - Peripherals
 
@@ -37,7 +35,7 @@ Some examples of peripherals are:
 1. GPIOs (General Purpose Input/Output) - examples for this would be output to light an LED or reading a binary sensor input such as if a magnet passed over a hall effect sensor or not
 1. ADC (Analog to Digital Control) - example would be reading a thermistor for room temperature where the input is an analog count and you would translate that to a meaningful temperature
 1. DAC (Digital to Analog Control) - example would be video or audio converters that translate from digital to analog signals
-1. PWM (Pulse-width modulation) - example would be controlling a variable speed motor with a pulse-width signal with varying frequency and/or duty-cycle
+1. PWM (Pulse-width modulation) - example would be controlling a variable speed motor with a pulse-width signal, which is basically a square wave with varying frequency and/or duty-cycle
 1. Hardware timers to keep time or count operations or events
 1. Serial communication - UART, I2C, SPI - these are used to communication between two devices such as microcontroller to microcontroller or sensor to microcontroller
 1. Interrupts - an interrupt is a signal to the microcontroller that's emitted by hardware or software to indicate that an event has happened and needs immediate attention; example is pressing a key on a keyboard or clicking a mouse - this causes a hardware interrupt that will be serviced by the processor to read the key or mouse click and act accordingly
