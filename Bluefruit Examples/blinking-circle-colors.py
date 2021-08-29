@@ -28,7 +28,4 @@ while True:
         time.sleep(0.2)
         pixel -= 1
 
-    if color_index == len(colors) - 2:
-        color_index = 0
-    else:
-        color_index += 2
+    color_index = (color_index + 2) % len(colors)

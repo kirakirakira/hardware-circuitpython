@@ -27,8 +27,5 @@ while True:
         cp.pixels[pixel] = clear
         time.sleep(0.2)
         pixel -= 1
-
-    if color_index == len(colors) - 1:
-        color_index = 0
-    else:
-        color_index += 1
+        
+    color_index = (color_index + 1) % len(colors)
