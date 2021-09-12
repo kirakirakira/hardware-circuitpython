@@ -25,3 +25,6 @@ https://learn.adafruit.com/adafruit-pyruler/circuitpython-cap-touch
 ## Circuit Playground Express/Bluefruit
 https://learn.adafruit.com/adafruit-circuit-playground-express
 https://www.adafruit.com/product/4333
+
+## LinkedIn Learning Class
+https://www.linkedin.com/learning/learning-circuitpython-with-circuit-playground-express/understanding-basic-circuits

@@ -10,4 +10,6 @@ while True:
         cp.pixels[pixel] = (0, 0, 255)
         time.sleep(delay_time)
         cp.pixels[pixel] = (0)
-        delay_time = abs(cp.acceleration.z - 8)* 0.05
+        # print(cp.acceleration.z)
+        delay_time = abs(cp.acceleration.z - 10)* 0.05
+        print(delay_time)
