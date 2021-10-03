@@ -8,11 +8,11 @@ steps = 0
 
 while True:
     print("steps = {}".format(steps), end = "\n")
-    # print("steps = " + str(steps), end = "\n")
-    print("{}, {}, {}".format(cp.acceleration.x, cp.acceleration.y, cp.acceleration.z), end="\r")
+    print("{}, {}".format(cp.acceleration.x, cp.acceleration.y), end="\n")
 
-    if cp.acceleration.x < 2 and cp.acceleration.y > 10:
+    if cp.acceleration.x < 2 and cp.acceleration.y > 9:
         steps+=1
-
+    elif cp.acceleration.x > 0 and cp.acceleration.y < 0:
+        steps+=1 
 
     time.sleep(0.5)
