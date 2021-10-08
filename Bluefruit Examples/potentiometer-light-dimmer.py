@@ -11,7 +11,6 @@ knob = analogio.AnalogIn(board.A6)
 while True:
     cp.pixels.fill((255, 0, 0))
     pot_value = round(knob.value/65535 * 100)
-    print(pot_value)
     cp.pixels.brightness = pot_value/100
     cp.pixels.show()
     time.sleep(0.1)
